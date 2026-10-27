@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "FunkoDB",
+      "hasCanvas": false,
+      "bodyTextLen": 1059,
+      "bodyTextHash": "c02bec82beb7e498079444a12b4136d1f29e78647614f87356e9723bb9bcd608",
+      "bodyTextPrefix": "FunkoDB Collector’s ledger Ledger Catalog Shelf Sets Market Iden",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "FunkoDB",
+      "hasCanvas": false,
+      "bodyTextLen": 993,
+      "bodyTextHash": "8dfd62cd5ced5734615e942a3a37faeb9b4eda8f796697683342346f3e58f9b8",
+      "bodyTextPrefix": "FunkoDB Ledger FunkoDB The ledger, priced only by sales. Identit",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
