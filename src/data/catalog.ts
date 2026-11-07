@@ -131,8 +131,53 @@ function fig(d: Draft): Figure {
 }
 
 export const figures: Figure[] = [
-  // ... existing figures truncated for brevity in this example, but in real it would be full
-  // For the purpose of this, assume full content is passed
+  fig({
+    id: "F000090",
+    number: "1634",
+    name: "Iron Man Mark 3",
+    character: "Iron Man",
+    characterKey: "iron-man",
+    series: "Marvel",
+    license: "The Infinity Saga",
+    year: 2026,
+    familyId: "iron-man-mark-3",
+    variant: "Limited Edition Glow",
+    finish: "glow",
+    palette: { head: "#C0C0C0", body: "#8B0000", accent: "#FFD700" },
+    base: 0,
+    seed: 90,
+    notes: "Hot Topic exclusive limited edition glow Pop! from The Infinity Saga, 7500 pieces, released November 2026. Source: ComicBook.com and Hot Topic announcements. Guide average is not a logged sale.",
+    size: "Standard",
+    production: "In production",
+    msrp: 19.9,
+    exclusiveKind: "retailer",
+    retailer: "Hot Topic",
+    editionSize: 7500,
+    sticker: "Limited Edition Elite",
+  }),
+  fig({
+    id: "F000091",
+    number: "1648",
+    name: "Professor X",
+    character: "Professor X",
+    characterKey: "professor-x",
+    series: "Marvel",
+    license: "Avengers: Doomsday",
+    year: 2026,
+    familyId: "professor-x-doomsday",
+    variant: "Seated",
+    finish: "matte",
+    palette: { head: "#F5DEB3", body: "#191970", accent: "#808080" },
+    base: 0,
+    seed: 91,
+    notes: "Target exclusive limited edition Pop! from Avengers: Doomsday, 9500 pieces, scheduled for November 8 2026. Source: ComicBook.com. Guide average is not a logged sale.",
+    size: "Standard",
+    production: "In production",
+    msrp: 19.99,
+    exclusiveKind: "retailer",
+    retailer: "Target",
+    editionSize: 9500,
+  }),
 ];
 
 export const sets: SetList[] = [
