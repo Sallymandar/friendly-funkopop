@@ -20,7 +20,7 @@ export type Figure = {
   character: string;
   characterKey: string;
   series: string;
-  line: "Pop!";
+  line: "Pop!" | "Soda" | "Bitty Pop";
   license: string;
   year: number;
   country: string;
@@ -93,7 +93,7 @@ type Draft = {
   sticker?: string;
   boxStyle?: string;
   msrp?: number;
-  size?: string;
+  line?: "Pop!" | "Soda" | "Bitty Pop";
   country?: string;
   production?: Production;
 };
@@ -106,7 +106,7 @@ function fig(d: Draft): Figure {
     character: d.character,
     characterKey: d.characterKey,
     series: d.series,
-    line: "Pop!",
+    line: d.line ?? "Pop!",
     license: d.license,
     year: d.year,
     country: d.country ?? "United States",
@@ -177,6 +177,52 @@ export const figures: Figure[] = [
     exclusiveKind: "retailer",
     retailer: "Target",
     editionSize: 9500,
+  }),
+  fig({
+    id: "F000092",
+    number: "2090",
+    name: "Art the Clown",
+    character: "Art the Clown",
+    characterKey: "art-the-clown",
+    series: "Movies",
+    license: "Terrifier 3",
+    year: 2026,
+    familyId: "art-the-clown-terrifier",
+    variant: "Seated Cobweb Scare Fair",
+    finish: "matte",
+    palette: { head: "#FFFFFF", body: "#000000", accent: "#FFFF00" },
+    base: 0,
+    seed: 92,
+    notes: "Hot Topic Scare Fair exclusive seated Pop! Movies mold of Art the Clown from Terrifier 3, now in stores. Source: Hot Topic listing and FunkoPOP News. Guide average is not a logged sale.",
+    size: "Standard",
+    production: "In production",
+    msrp: 15.9,
+    exclusiveKind: "retailer",
+    retailer: "Hot Topic",
+    sticker: "Scare Fair 2026",
+  }),
+  fig({
+    id: "F000093",
+    number: "n/a",
+    name: "Tigerzord with White Ranger",
+    character: "Tigerzord",
+    characterKey: "tigerzord",
+    series: "Movies",
+    license: "Power Rangers",
+    year: 2026,
+    familyId: "tigerzord-white-ranger",
+    variant: "Bitty Bot",
+    finish: "matte",
+    palette: { head: "#FFA500", body: "#FFFFFF", accent: "#0000FF" },
+    base: 0,
+    seed: 93,
+    notes: "Walmart exclusive Bitty Pop Bitty Bot of Tigerzord with White Ranger, now live on Funko Shop. Source: Funko product page. Guide average is not a logged sale.",
+    line: "Bitty Pop",
+    size: "Bitty",
+    production: "In production",
+    msrp: 19.99,
+    exclusiveKind: "retailer",
+    retailer: "Walmart",
   }),
 ];
 
