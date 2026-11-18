@@ -459,6 +459,27 @@ export const figures: Figure[] = [
     production: "In production",
     msrp: 14.99,
   }),
+  fig({
+    id: "F000105",
+    number: "2704",
+    name: "Sasuke Uchiha",
+    character: "Sasuke Uchiha",
+    characterKey: "sasuke-uchiha",
+    series: "Animation",
+    license: "Naruto Shippuden",
+    year: 2026,
+    familyId: "sasuke-uchiha-2704",
+    variant: "Standard",
+    finish: "matte",
+    palette: { head: "#1C1C1C", body: "#808080", accent: "#0000FF" },
+    base: 0,
+    seed: 105,
+    notes: "Pop! Animation mold of Sasuke Uchiha from Naruto Shippuden with blue energy effects, on sale November 18 2026. Source: FunkoPOP News announcements and public trackers. Guide average is not a logged sale.",
+    size: "Standard",
+    production: "In production",
+    msrp: 0,
+    line: "Pop!",
+  }),
 ];
 
 export const sets: SetList[] = [
