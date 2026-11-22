@@ -13,12 +13,56 @@ export type Article = {
   note?: string;
 };
 
-export const pulled = "21 Nov 2026";
+export const pulled = "22 Nov 2026";
 
 export const brief =
-  "Stock loaded for the November 23 Funko Limited Edition Black Friday drawing covering Endgame Black Widow, Power Cosmic Howard the Duck, WWE Kevin Owens, and Cyber Corrupted Sonic. Pre-order opened for a Mystery Hello Kitty (Space) Pop. Funko is running a Marvel sale with up to 70% off selected figures. Collector WTS posts appeared for older Pops including Shuri and BTS figures.";
+  "Pre-orders opened for a Michael Jordan Tune Squad Uniform Pop and a Mystery Hello Kitty (Space) 6-pack. A retail exclusive Mr. Whatsit / Vecna Pop is listed. Solo Leveling figures are on sale at $7.50 each or $45 for a case of six including the chase. Limited Edition Black Friday drawings remain scheduled for November 23.";
 
 export const articles: Article[] = [
+  {
+    id: "jordan-x",
+    lane: "drops",
+    where: "x",
+    title: "Michael Jordan Tune Squad Uniform pre-order",
+    source: "@ToysTracker",
+    when: "22 Nov 2026",
+    text: "Funko [$14.99]: Pop! Michael Jordan (Tune Squad Uniform) [Pre-order]",
+    url: "https://x.com/ToysTracker/status/2124455982944178665",
+    note: "Affiliate listing. Price is listed retail for pre-order.",
+  },
+  {
+    id: "vecna-x",
+    lane: "limited",
+    where: "x",
+    title: "Mr. Whatsit / Vecna retail exclusive",
+    source: "@ToysTracker",
+    when: "22 Nov 2026",
+    text: "Funko [$14.99]: Pop! Mr. Whatsit / Vecna [Retail Exclusive]",
+    url: "https://x.com/ToysTracker/status/2124446811565727945",
+    note: "Affiliate listing. Price is listed retail.",
+  },
+  {
+    id: "hello-kitty-6pack-x",
+    lane: "drops",
+    where: "x",
+    title: "Mystery Hello Kitty (Space) 6-Pack pre-order",
+    source: "@ToysTracker",
+    when: "22 Nov 2026",
+    text: "Funko [$89.99]: Pop! Mystery Hello Kitty (Space) 6-Pack [Pre-order]",
+    url: "https://x.com/ToysTracker/status/2124352966035378183",
+    note: "Affiliate listing. Price is listed retail for pre-order.",
+  },
+  {
+    id: "solo-leveling-sale-x",
+    lane: "drops",
+    where: "x",
+    title: "Solo Leveling sale $7.50 each or case with chase",
+    source: "@FunkoPOPsNews",
+    when: "22 Nov 2026",
+    text: "Solo Leveling sale! Just $7.50 each .. or $45 for a case of 6 with chase!",
+    url: "https://x.com/FunkoPOPsNews/status/2124347095117451314",
+    note: "Affiliate link. Sale prices.",
+  },
   {
     id: "le-stock-x",
     lane: "limited",
@@ -86,17 +130,6 @@ export const articles: Article[] = [
     note: "Affiliate links. Drawing opens Nov 23.",
   },
   {
-    id: "bw-bsky",
-    lane: "limited",
-    where: "bluesky",
-    title: "First look: LE 7,500 Endgame Black Widow",
-    source: "@funkonews.bsky.social",
-    when: "20 Nov 2026",
-    text: "First look! LE 7,500 Endgame Black Widow Funko POP! Landing at the links below .. 11/23 ~",
-    url: "https://bsky.app/profile/funkonews.bsky.social/post/3n2q3wwtorc2z",
-    note: "Affiliate links. Drawing opens Nov 23.",
-  },
-  {
     id: "howard-x",
     lane: "limited",
     where: "x",
@@ -117,38 +150,5 @@ export const articles: Article[] = [
     text: "First look! LE 1,200 Corrupted Sonic Funko POP! Landing at the links below .. 11/23 ~",
     url: "https://x.com/FunkoPOPsNews/status/2123683785581408411",
     note: "Affiliate links. Drawing opens Nov 23.",
-  },
-  {
-    id: "shuri-trade-x",
-    lane: "trades",
-    where: "x",
-    title: "WTS Black Panther Shuri Pops",
-    source: "@pkxpkk",
-    when: "21 Nov 2026",
-    text: "พร้อมส่ง / wts Funko Pop – Black Panther — Shuri (1173) — Shuri (1103) — Shuri Keyring ราคาตามภาพ ส่งฟรี (เหมา 3 ชิ้น 650 บาท ส่งฟรี)",
-    url: "https://x.com/pkxpkk/status/2124075509235806423",
-    note: "Asking prices listed in image; individual seller post.",
-  },
-  {
-    id: "bts-trade-x",
-    lane: "trades",
-    where: "x",
-    title: "WTS BTS Jin Funko Pop and merch",
-    source: "@pauuu_jeonx",
-    when: "21 Nov 2026",
-    text: "WTS LFB BTS BT21 TINY TAN MERCH Decluttering~ All for 1.5K (w/ FREE RANDOM BTS PC) - Army Bomb SE - Jin Funko Pop - BT21 and Tiny Tan Merch",
-    url: "https://x.com/pauuu_jeonx/status/2124070515510051141",
-    note: "Asking price for bundle; individual seller.",
-  },
-  {
-    id: "godzilla-x",
-    lane: "limited",
-    where: "x",
-    title: "Target limited edition Godzilla Hedorah",
-    source: "@ToysTracker",
-    when: "20 Nov 2026",
-    text: "Target [$19.99]: Funko POP! Limited Edition: Godzilla • Hedorah (Flying Stage) Vinyl Figure #2125",
-    url: "https://x.com/ToysTracker/status/2123765960309952865",
-    note: "Affiliate listing. Price is listed retail.",
   },
 ];
